@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    width: 70%;
+
+}
+
+td, th {
+    border: 1px solid rgb(248, 243, 243);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+span {
+    margin: 0px 5px ;
+}
+
+.tr {
+    background-color: lightgrey;
+}
+
+.trWhite {
+    background-color: white;
+}
+
+#main:hover {
+    background-color: lightgrey;
+}
+
+#download:hover {
+    cursor: pointer;
+}
+
+#topRow {
+    font-size: large;
+}
+

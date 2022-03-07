@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles/table.css">
+    </head>
+    <body>
+        <table>
+            
+            <thead>
+                <tr id="topRow">
+                    <td id="selectAll"></td>
+                    <td>Selected <span id="selectCount"></span></td>
+                    <td id="download" onClick="callMe()">Download Selected</td>
+                </tr>
+                <tr id="secondTopRow">
+                    <th></th>
+                    <th>Name</th>
+                    <th>Device</th>
+                    <th>Path</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="tableData">
+            </tbody>
+        </table>
+        <script src="../controller/dataTable.js"></script>
+    </body>
+</html>
